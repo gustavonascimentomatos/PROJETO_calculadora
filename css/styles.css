@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3em;
+    padding: 1em;
 }
 
 #calc {
@@ -20,6 +20,7 @@ body {
     color: #000;
     display: flex;
     flex-direction: column;
+    margin-top: 0;
 }
 
 #calc h3 {
@@ -80,4 +81,38 @@ body {
 
 #buttons-container #equal-btn:hover {
     background-color: #3a91d8;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: #bababa;
+    padding: 5px;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    color: #000;
+    margin-top: auto; /* Faz o rodapé sempre ficar no fim */
+    position: relative;
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os elementos */
+}
+
+#links a {
+    display: flex;
+    align-items: center; /* Alinha a imagem verticalmente */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#links img {
+    vertical-align: middle;
 }
